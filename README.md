@@ -9,32 +9,32 @@ Built-in Commands
 Minishell includes several built-in commands that provide basic functionality. Some of these commands include:
 
 
-cd: Change the current directory.
+* cd: Change the current directory.
 
-echo: Display a line of text.
+* echo: Display a line of text.
 
-exit: Exit the shell.
+* exit: Exit the shell.
 
-pwd: Print the current working directory.
+* pwd: Print the current working directory.
 
-env: Display the environment variables.
+* env: Display the environment variables.
 
-export: Set or export environment variables.
+* export: Set or export environment variables.
 
-unset: Remove environment variables.
+* unset: Remove environment variables.
 
-history: List or clear the command history
+* history: List or clear the command history
 
 # Wildcards
 Minishell supports the use of wildcards for pattern matching in filenames and directories. Below are the different types of wildcards available:
 
-* (Asterisk): Matches zero or more characters.
-* 
-? (Question mark): Matches exactly one character.
+* * (Asterisk): Matches zero or more characters.
 
-[] (Square brackets): Matches any one of the enclosed characters. A range of characters can be specified using a hyphen (-), for example, [a-z] matches any lowercase letter.
+* ? (Question mark): Matches exactly one character.
 
-[!] (Negated square brackets): Matches any character not enclosed. For example, [!a-z] matches any character that is not a lowercase letter.
+* [] (Square brackets): Matches any one of the enclosed characters. A range of characters can be specified using a hyphen (-), for example, [a-z] matches any lowercase letter.
+
+* [!] (Negated square brackets): Matches any character not enclosed. For example, [!a-z] matches any character that is not a lowercase letter.
 
 # Environment Variables
 Minishell supports environment variables, allowing users to set, export, and unset variables that can be used by the shell and its subprocesses.
@@ -52,11 +52,11 @@ Minishell supports command substitution using the $() syntax. This feature allow
 Minishell supports various command separators to control the flow of command execution:
 
 
-; : Sequential execution. Commands separated by ; are executed one after another.
+* ; : Sequential execution. Commands separated by ; are executed one after another.
 
-&&: Conditional AND. The second command is executed only if the first command succeeds.
+* &&: Conditional AND. The second command is executed only if the first command succeeds.
 
-||: Conditional OR. The second command is executed only if the first command fails.
+* ||: Conditional OR. The second command is executed only if the first command fails.
 
 
 # Redirection and Pipes
