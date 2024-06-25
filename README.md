@@ -33,9 +33,9 @@ Minishell supports the use of wildcards for pattern matching in filenames and di
 
 * `?` (Question mark): Matches exactly one character.
   
-* `[ ]` (Square brackets): Matches any one of the enclosed characters. A range of characters can be specified using a hyphen (-), for example, [a-z] matches any lowercase letter.
+* `[ ]` (Square brackets): Matches any one of the enclosed characters. A range of characters can be specified using a hyphen (-), for example, `[a-z]` matches any lowercase letter.
 
-* `[! ]` (Negated square brackets): Matches any character not enclosed. For example, [!a-z] matches any character that is not a lowercase letter.
+* `[! ]` (Negated square brackets): Matches any character not enclosed. For example, `[!a-z]` matches any character that is not a lowercase letter.
 
 # Environment Variables
 Minishell supports environment variables, allowing users to set, export, and unset variables that can be used by the shell and its subprocesses.
@@ -44,10 +44,10 @@ Minishell supports environment variables, allowing users to set, export, and uns
 Shell variables are supported to store data that can be used within the shell session. These variables can be set and accessed similarly to environment variables but are not exported to subprocesses by default.
 
 # Subshell
-Minishell supports the execution of commands in a subshell using parentheses (). This allows commands to be executed in a separate shell environment.
+Minishell supports the execution of commands in a subshell using parentheses `()`. This allows commands to be executed in a separate shell environment.
 
 # Command Substitution with $()
-Minishell supports command substitution using the $() syntax. This feature allows the output of a command to be captured and used as an argument in another command. For example:
+Minishell supports command substitution using the `$()` syntax. This feature allows the output of a command to be captured and used as an argument in another command. For example:
 
 # Command Separators
 Minishell supports various command separators to control the flow of command execution:
