@@ -1,5 +1,3 @@
-# minishell
-
 # What is Minishell?
 Minishell is a simple implementation of a Unix shell designed to execute commands in an environment similar to an operating system. It provides a command-line interface where users can input and execute commands, manage processes, and work with files and directories.
 
@@ -43,6 +41,9 @@ Minishell allows for input and output redirection using >, <, >>, <<, <<< and su
 
 # Signal Handling
 Minishell handles common signals such as SIGINT (Ctrl+C) and SIGQUIT (Ctrl+\) to ensure proper behavior during command execution.
+
+
+Kobayashi82 (vzurera-)
 
 # Notes
 Minishell is designed as a simplified shell and may not support all features of a full-fledged Unix shell.
