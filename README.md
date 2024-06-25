@@ -25,6 +25,16 @@ unset: Remove environment variables.
 
 history: List or clear the command history
 
+# Wildcards
+Minishell supports the use of wildcards for pattern matching in filenames and directories. Below are the different types of wildcards available:
+
+* (Asterisk): Matches zero or more characters.
+* 
+? (Question mark): Matches exactly one character.
+
+[] (Square brackets): Matches any one of the enclosed characters. A range of characters can be specified using a hyphen (-), for example, [a-z] matches any lowercase letter.
+
+[!] (Negated square brackets): Matches any character not enclosed. For example, [!a-z] matches any character that is not a lowercase letter.
 
 # Environment Variables
 Minishell supports environment variables, allowing users to set, export, and unset variables that can be used by the shell and its subprocesses.
