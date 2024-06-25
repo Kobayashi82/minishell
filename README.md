@@ -8,6 +8,7 @@ Minishell serves as an educational and development tool that allows users to und
 Built-in Commands
 Minishell includes several built-in commands that provide basic functionality. Some of these commands include:
 
+
 cd: Change the current directory.
 
 echo: Display a line of text.
@@ -40,9 +41,13 @@ Minishell supports command substitution using the $() syntax. This feature allow
 # Command Separators
 Minishell supports various command separators to control the flow of command execution:
 
+
 ; : Sequential execution. Commands separated by ; are executed one after another.
+
 &&: Conditional AND. The second command is executed only if the first command succeeds.
+
 ||: Conditional OR. The second command is executed only if the first command fails.
+
 
 # Redirection and Pipes
 Minishell allows for input and output redirection using >, <, >>, <<, <<< and supports pipes | for chaining commands.
