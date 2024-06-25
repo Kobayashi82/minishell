@@ -4,26 +4,27 @@ Minishell is a simple implementation of a Unix shell designed to execute command
 # What is it for?
 Minishell serves as an educational and development tool that allows users to understand and interact with the basic functionalities of a Unix-like shell. It can be used to learn about command parsing, process management, and the execution of built-in commands.
 
-# Features
-Built-in Commands
+# Built-ins
 Minishell includes several built-in commands that provide basic functionality. Some of these commands include:
 
 
-* `cd` Change the current directory.
+* `cd` Change the current directory. (support `-` and `~`)
 
-* `echo` Display a line of text.
+* `echo` Display a line of text. (with options `-n` and `-e`)
 
 * `exit` Exit the shell.
 
 * `pwd` Print the current working directory.
 
-* `env` Display the environment variables.
+* `env` Display the environment variables. (with options `-0` and `-s`)
 
-* `export` Set or export environment variables.
+* `export` Set or export environment variables. (with options `-n` and `-p`)
 
 * `unset` Remove environment variables.
 
-* `history` List or clear the command history
+* `history` List or clear the command history. (with option `-c`)
+
+Every built-in comes with `--help` and `--version` options.
 
 # Wildcards
 Minishell supports the use of wildcards for pattern matching in filenames and directories. Below are the different types of wildcards available:
@@ -60,10 +61,10 @@ Minishell supports various command separators to control the flow of command exe
 
 
 # Redirection and Pipes
-Minishell allows for input and output redirection using >, <, >>, <<, <<< and supports pipes | for chaining commands.
+Minishell allows for input and output redirection using `>`, `<,` `>>`, `<<`, `<<<` and supports pipes `|` for chaining commands.
 
 # Signal Handling
-Minishell handles common signals such as SIGINT (Ctrl+C) and SIGQUIT (Ctrl+\) to ensure proper behavior during command execution.
+Minishell handles common signals such as `SIGINT (Ctrl+C)` and `SIGQUIT (Ctrl+\)` to ensure proper behavior during command execution.
 
 
 # Notes
@@ -72,4 +73,4 @@ Error handling and edge cases should be carefully considered during implementati
 This project is a great opportunity to understand the inner workings of a shell, including parsing, process management, and command execution.
 
 
-Kobayashi82 (vzurera-)
+`Kobayashi82 (vzurera-)`
