@@ -9,13 +9,21 @@ Built-in Commands
 Minishell includes several built-in commands that provide basic functionality. Some of these commands include:
 
 cd: Change the current directory.
+
 echo: Display a line of text.
+
 exit: Exit the shell.
+
 pwd: Print the current working directory.
+
 env: Display the environment variables.
+
 export: Set or export environment variables.
+
 unset: Remove environment variables.
+
 history: List or clear the command history
+
 
 # Environment Variables
 Minishell supports environment variables, allowing users to set, export, and unset variables that can be used by the shell and its subprocesses.
