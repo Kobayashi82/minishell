@@ -56,9 +56,10 @@ Minishell allows for input and output redirection using >, <, >>, <<, <<< and su
 Minishell handles common signals such as SIGINT (Ctrl+C) and SIGQUIT (Ctrl+\) to ensure proper behavior during command execution.
 
 
-Kobayashi82 (vzurera-)
-
 # Notes
 Minishell is designed as a simplified shell and may not support all features of a full-fledged Unix shell.
 Error handling and edge cases should be carefully considered during implementation and usage.
 This project is a great opportunity to understand the inner workings of a shell, including parsing, process management, and command execution.
+
+
+Kobayashi82 (vzurera-)
